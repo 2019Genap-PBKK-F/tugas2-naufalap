@@ -585,6 +585,6 @@ app.get("/api/log-indikator-satker", function(req, res){
    executeQuery(res, query, null, 0)
 })
 
-app.listen(8003, function () {
-   console.log('Listen on port 8003')
+app.listen(8002, function () {
+   console.log('Listen on port 8002')
 })
